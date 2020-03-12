@@ -1,1 +1,5 @@
 rootProject.name = 'spring-projects'
+ext.spring_boot_start = ':spring-boot-start'
+include ':spring-boot-start'
+include ':spring-boot-start:sample-application'
+
