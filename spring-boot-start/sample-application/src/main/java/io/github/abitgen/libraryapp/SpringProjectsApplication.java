@@ -1,4 +1,4 @@
-package io.github.abitgen.springprojects;
+package io.github.abitgen.libraryapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
