@@ -34,6 +34,3 @@ out/
 
 # Intellij idea run Configurations
 !.idea/runConfigurations
-
-# SubProjects ignore
-/spring-boot-start/sample-application/build/

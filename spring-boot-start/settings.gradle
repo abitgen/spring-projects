@@ -1,0 +1,14 @@
+rootProject.name = 'spring-boot-start'
+ext.spring_boot_start = ':spring-boot-start'
+include ':library-model-repo-h2'
+include ':sample-application'
+include ':library-management-application'
+/*
+project(":library-model-repo-h2").projectDir = file("library-model-repo-h2")
+project(":sample-application").projectDir = file("sample-application")
+project(":library-management-application").projectDir = file("library-management-application")
+*/
+
+
+
+
