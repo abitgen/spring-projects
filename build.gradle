@@ -1,2 +1,10 @@
 group = 'io.github.abitgen'
 version = '0.0.1-SNAPSHOT'
+
+task buildLibraryManagementApp {
+    dependsOn gradle.includedBuild('spring-boot-start').task(':library-management-application:build')
+}
+
+task allProjects {
+    dependsOn gradle.includedBuild('spring-boot-start').task(':projects')
+}
