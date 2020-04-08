@@ -12,10 +12,18 @@ plugins {
     id 'org.springframework.boot' version '2.2.6.RELEASE'
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
     id 'java'
+    id 'idea'
+    /*id 'application'*/
 }
 
 group = 'io.github.abitgen'
 version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+/*application {
+    mainClassName = "io.github.abitgen.libraryapp.LibraryManagementApplication"
+}*/
+
 
 allprojects{
     apply plugin: 'java'

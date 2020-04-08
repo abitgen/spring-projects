@@ -8,7 +8,5 @@ project(":library-model-repo-h2").projectDir = file("library-model-repo-h2")
 project(":sample-application").projectDir = file("sample-application")
 project(":library-management-application").projectDir = file("library-management-application")
 */
-
-
-
+include 'library-view-thymeleaf'
 
